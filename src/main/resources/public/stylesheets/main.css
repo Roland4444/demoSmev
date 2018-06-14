@@ -1,0 +1,409 @@
+@font-face {
+   font-family: museosans;
+   src: url(public/font/MuseoSansCyrl.otf); }
+@font-face {
+   font-family: unicorn_regular;
+   src: url(../font/unicorn_regular.ttf);
+}
+
+@font-face {
+   font-family: bern;
+   src: url(../font/BERNIERRegular-Regular.otf);
+}
+
+@font-face {
+   font-family: choplin;
+   src: url(../font/Choplin-Medium-DEMO.otf);
+}
+
+@font-face {
+   font-family: franklin;
+   src: url(../font/FranklinGothicHeavy.ttf);
+}
+
+@font-face {
+   font-family: glyphicons;
+   src: url(../font/glyphicons-halflings-regular.ttf);
+}
+
+@font-face {
+   font-family: museosans2;
+   src: url(../font/MuseoSansCyrl_3.otf.otf);
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol,   fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               /* обнуляем отступы и убираем бордюры */
+	vertical-align: baseline;          /* приводим все к одной базовой линии */
+	background: transparent;      /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+	font-size: 100%;                     /* размер шрифта всем одинаковый */
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+}
+input, select, button, textarea {
+	margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+	outline: none;
+}
+input[type="text"], input[type="password"], textarea {
+	padding: 0; 				/* убираем внутренние отступы для текстовых полей */
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+
+/* --------------- /reset.css --------------- */
+
+/* --------------- базовые настройки UnicornRus---------*/
+
+
+
+.flow{
+     float:left;
+     border: 1px;
+}
+
+.button-div{
+            margin: 0px 20px 0px 0px;
+                float:left;
+                border: 10px;
+           }
+
+.clear {
+    clear: left; /* Отмена обтекания */
+}
+
+.navrigth{
+    position: relative;
+    top: 0px;
+}
+
+.navimage{
+    top: 0px;
+}
+.imagerow{
+
+    heigth:40px;
+}
+
+.checkout h5{
+text-align: right;
+}
+
+.rowbasket {
+   vertical-align: middle;
+}
+
+.payments{
+    text-align: left;
+    heigth:40px;
+    margin: 0px 0px 0px 20px;
+    font-family: museosans2;
+    font-size: 1em;
+}
+
+.navleft{
+ position: absolute;
+    width: 100%;
+    left: 120px;
+    top: 0px;
+  text-align: bottom;
+}
+.nav a{
+    font-family: bern;
+    color: white !important;
+    font-size: 1.6em !important;
+}
+
+.show {
+    text-align: center;
+}
+
+header{
+    min-height:100%;
+    background: url(/public/images/jaY5qsLX0x0.jpg) center center no-repeat; background-size: cover; padding: 60px 5px 550px 00px;
+    color: #ffffff;
+}
+
+basket .table{
+    margin: 0px 20px 20px 40px;
+}
+
+basket h3{
+    margin: 50px 0px 0px 60px;
+    font-family: museosans2;
+    font-size: 4em;
+    text-align: center;
+}
+
+basket h5{
+    margin: 0px 50px 0px 60px;
+    font-family: museosans2;
+    font-size: 2em;
+    text-align: right;
+}
+
+header h1{
+    font-family: unicorn_regular;
+    color: #000;
+    font-size: 9em;
+    text-align: center;
+    text-shadow: -5px -5px 3px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;
+}
+
+.jSlider{
+    border:1px solid black;
+	margin-left:0px;
+}
+
+item {
+    margin: 30px 0px 40px 30px;
+}
+
+popular{
+    margin: 0px 0px 0px 0px;
+    padding 0 px;
+}
+
+footer{
+
+    margin: 20px 0px 40px 0px;
+    padding 0 px;
+}
+
+footer h4{
+       margin: 0px 0px 0px 60px;
+       font-family: bern;
+       color: #000;
+       font-size: 4em;
+       text-align: left;
+       text-shadow: -5px -5px 3px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;
+}
+
+footer h5{
+        margin: 0px 0px 0px 60px;
+        font-family: museosans2;
+        color: #000;
+        font-size: 2em;
+        text-align: left;
+        text-shadow: -5px -5px 3px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;
+}
+
+
+popular h1{
+    font-family: bern;
+    color: #000;
+    font-size: 7em;
+    text-align: center;
+    text-shadow: -5px -5px 3px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white;
+}
+
+.start_block{
+    margin: 00% 1% 0% 7%;
+    width:20%;
+    background:#f1f1f1;
+    float:left;
+    padding: 0px;
+}
+
+.start_block_item{
+    margin: 00% 1% 0% 7%;
+    width: 400px;
+    background:#ffffff;
+    float:left;
+    padding: 0px;
+}
+
+.start_block_item h4{
+    font-family: museosans2;
+    color: #000;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+.start_block h4{
+    font-family: museosans2;
+    color: #000;
+    font-size: 1em;
+    text-align: left;
+}
+
+.start_block  h3{
+    font-family: museosans2;
+    color: #000;
+    font-size: 2em;
+    text-align: left;
+}
+
+.uuid h3{
+        float:left;
+        color: #f00;
+        margin: 20px 0px 10px 60px;
+}
+
+.controls{
+    width:20%;
+    margin: 20px 0px 10px 60px;
+    float:left;
+}
+
+.btn {
+    width:40px;
+    margin: 0px 20px 0px 20px;
+    padding:15px;
+}
+
+.controls2{
+    width:40%;
+    margin: 20px 0px 0px 60px;
+    float:left;
+}
+
+.controls3{
+    margin: 20px 0px 0px 60px;
+    float:left;
+}
+
+.controls4{
+    margin: 0px 390px 20px 60px;
+}
+
+.line_block_item-div{
+
+margin: 0px 0px 0px 20px;
+}
+.line_block_item {
+
+
+        float:left;
+        margin: 0% 1% 10% 2%;
+        padding: 0px;
+}
+
+.line_block_item h4{
+    font-family: museosans2;
+    color: #000;
+    font-size: 1em;
+    text-align: left;
+}
+
+.line_block_item  h3{
+    font-family: museosans2;
+    color: #000;
+    font-size: 2em;
+    text-align: left;
+}
+
+
+
+.line_block {
+        width:20%;
+        background:#f1f1f1;
+        float:left;
+        margin: 0% 1% 10% 1%;
+        padding: 0px;
+}
+
+.line_block h4{
+    font-family: museosans2;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+}
+
+.line_block  h3{
+    font-family: museosans2;
+    color: #000;
+    font-size: 2em;
+    text-align: center;
+}
+
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+
+body {
+	color: #000;
+	text-align: left;
+	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
+	min-height:100%;
+}
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	color: #e6618c;
+	text-decoration: underline;
+}
+a:hover {
+	color: #fdf208;
+	text-decoration:none;
+}
+a:focus, a:active {
+	color: #c83867;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+	max-width:100%;
+}
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+footer a {
+  color: black;
+}
+footer a:link {
+    color: black;
+}
+    /* visited link */
+footer a:visited {
+    color: black;
+}
+
+    /* mouse over link */
+footer a:hover {
+    color: black;
+}
+
+footer ul{
+    padding: 0px;
+    margin: 0px 20px 0px 80px;
+}
+/* ------------
+--- /базовые настройки ---------*/
